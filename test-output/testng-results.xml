@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1258" started-at="2021-06-02T13:41:23Z" finished-at="2021-06-02T13:41:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="1258" started-at="2021-06-02T13:41:23Z" finished-at="2021-06-02T13:41:24Z">
+      <class name="com.wordpress.posts.Post_01_New_Edit_Delete">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wordpress.posts.Post_01_New_Edit_Delete@7f9a81e8]" name="beforeClass" is-config="true" duration-ms="849" started-at="2021-06-02T13:41:23Z" finished-at="2021-06-02T13:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC_01_New_Post()[pri:0, instance:com.wordpress.posts.Post_01_New_Edit_Delete@7f9a81e8]" name="TC_01_New_Post" duration-ms="9" started-at="2021-06-02T13:41:24Z" finished-at="2021-06-02T13:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01_New_Post -->
+        <test-method status="PASS" signature="TC_02_View_Post()[pri:0, instance:com.wordpress.posts.Post_01_New_Edit_Delete@7f9a81e8]" name="TC_02_View_Post" duration-ms="2" started-at="2021-06-02T13:41:24Z" finished-at="2021-06-02T13:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_02_View_Post -->
+        <test-method status="PASS" signature="TC_03_Edit_Post()[pri:0, instance:com.wordpress.posts.Post_01_New_Edit_Delete@7f9a81e8]" name="TC_03_Edit_Post" duration-ms="1" started-at="2021-06-02T13:41:24Z" finished-at="2021-06-02T13:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_03_Edit_Post -->
+        <test-method status="PASS" signature="TC_04_Make_Post_Private()[pri:0, instance:com.wordpress.posts.Post_01_New_Edit_Delete@7f9a81e8]" name="TC_04_Make_Post_Private" duration-ms="4" started-at="2021-06-02T13:41:24Z" finished-at="2021-06-02T13:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_04_Make_Post_Private -->
+        <test-method status="PASS" signature="TC_05_Delete_Post()[pri:0, instance:com.wordpress.posts.Post_01_New_Edit_Delete@7f9a81e8]" name="TC_05_Delete_Post" duration-ms="2" started-at="2021-06-02T13:41:24Z" finished-at="2021-06-02T13:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_05_Delete_Post -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wordpress.posts.Post_01_New_Edit_Delete@7f9a81e8]" name="afterClass" is-config="true" duration-ms="0" started-at="2021-06-02T13:41:24Z" finished-at="2021-06-02T13:41:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.wordpress.posts.Post_01_New_Edit_Delete -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

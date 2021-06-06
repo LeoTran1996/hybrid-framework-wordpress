@@ -27,13 +27,13 @@ public class QuanHoanKiem {
 	}
 	
 	
-	protected String street = "Tran Van Du";
+	protected  String street = "Tran Van Du";
 	
 	protected void setStreet(String newstreet) {
 		street = newstreet;
 	}
 	
-	protected String getStreet() {
+	protected  String getStreet() {
 		return street;
 		
 	}

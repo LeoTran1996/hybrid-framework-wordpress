@@ -2,7 +2,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="com.wordpress.posts.Level_01_Login_Repeat_Yourself"/>
+      <class name="com.wordpress.posts.Level_02_Login_BasePage_01"/>
     </classes>
   </test> 
 </suite> 

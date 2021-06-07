@@ -21,18 +21,11 @@ public class Level_02_Login_BasePage_01 {
 	WebDriver driver;
 	BasePage basePage;
 	String projectPath = System.getProperty("user.dir");
-	By usernameTextboxBy = By.xpath("//input[@id='usernameOrEmail']");
-	By continueButtonBy = By.xpath("//button[@type='submit']");
-	By passwordTextboxBy = By.xpath("//input[@id='password']");
-	By loginButtonBy = By.xpath("//button[@type='submit']");
-
-	By emptyEmailErrorMessage = By.xpath("//span[text()='Please enter a username or email address.']");
-
+	
 	@BeforeClass
 	public void beforeClass() {
 		System.setProperty("webdriver.gecko.driver", projectPath + "\\browserDriver\\geckodriver.exe");
 		driver = new FirefoxDriver();
-		driver.get("https://automationfc.wordpress.com/wp-admin/");
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		basePage = new BasePage();
 	}

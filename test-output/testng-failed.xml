@@ -3,15 +3,15 @@
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.wordpress.posts.Level_01_Login_Repeat_Yourself">
+      <class name="com.wordpress.posts.Level_03_Login_Page_Oject">
         <methods>
-          <include name="beforeClass"/>
           <include name="Login_06_Incorrect_Password"/>
-          <include name="beforeMethod"/>
-          <include name="Login_07_Valid_Email_Password"/>
           <include name="afterClass"/>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="Login_05_Invalid_Password"/>
         </methods>
-      </class> <!-- com.wordpress.posts.Level_01_Login_Repeat_Yourself -->
+      </class> <!-- com.wordpress.posts.Level_03_Login_Page_Oject -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -2,76 +2,76 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="54687" started-at="2021-06-02T15:50:56Z" finished-at="2021-06-02T15:51:51Z">
+  <suite name="Suite" duration-ms="60955" started-at="2021-06-07T16:33:18Z" finished-at="2021-06-07T16:34:19Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="54687" started-at="2021-06-02T15:50:56Z" finished-at="2021-06-02T15:51:51Z">
-      <class name="com.wordpress.posts.Level_01_Login_Repeat_Yourself">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="beforeClass" is-config="true" duration-ms="9387" started-at="2021-06-02T15:50:56Z" finished-at="2021-06-02T15:51:06Z">
+    <test name="Test" duration-ms="60955" started-at="2021-06-07T16:33:18Z" finished-at="2021-06-07T16:34:19Z">
+      <class name="com.wordpress.posts.Level_03_Login_Page_Oject">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeClass" is-config="true" duration-ms="10239" started-at="2021-06-07T16:33:18Z" finished-at="2021-06-07T16:33:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="beforeMethod" is-config="true" duration-ms="1393" started-at="2021-06-02T15:51:06Z" finished-at="2021-06-02T15:51:07Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeMethod" is-config="true" duration-ms="3332" started-at="2021-06-07T16:33:28Z" finished-at="2021-06-07T16:33:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_01_Empty_Email_Username()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="Login_01_Empty_Email_Username" duration-ms="2435" started-at="2021-06-02T15:51:07Z" finished-at="2021-06-02T15:51:10Z">
+        <test-method status="PASS" signature="Login_01_Empty_Email_Username()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="Login_01_Empty_Email_Username" duration-ms="2672" started-at="2021-06-07T16:33:32Z" finished-at="2021-06-07T16:33:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_01_Empty_Email_Username -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="beforeMethod" is-config="true" duration-ms="1370" started-at="2021-06-02T15:51:10Z" finished-at="2021-06-02T15:51:11Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeMethod" is-config="true" duration-ms="1999" started-at="2021-06-07T16:33:34Z" finished-at="2021-06-07T16:33:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_02_Ivalid_Email_Username()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="Login_02_Ivalid_Email_Username" duration-ms="2514" started-at="2021-06-02T15:51:11Z" finished-at="2021-06-02T15:51:13Z">
+        <test-method status="PASS" signature="Login_02_Ivalid_Email_Username()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="Login_02_Ivalid_Email_Username" duration-ms="2847" started-at="2021-06-07T16:33:36Z" finished-at="2021-06-07T16:33:39Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_02_Ivalid_Email_Username -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="beforeMethod" is-config="true" duration-ms="1358" started-at="2021-06-02T15:51:13Z" finished-at="2021-06-02T15:51:15Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeMethod" is-config="true" duration-ms="1543" started-at="2021-06-07T16:33:39Z" finished-at="2021-06-07T16:33:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_03_Username_Not_Exist()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="Login_03_Username_Not_Exist" duration-ms="2568" started-at="2021-06-02T15:51:15Z" finished-at="2021-06-02T15:51:17Z">
+        <test-method status="PASS" signature="Login_03_Username_Not_Exist()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="Login_03_Username_Not_Exist" duration-ms="2613" started-at="2021-06-07T16:33:41Z" finished-at="2021-06-07T16:33:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_03_Username_Not_Exist -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="beforeMethod" is-config="true" duration-ms="1379" started-at="2021-06-02T15:51:17Z" finished-at="2021-06-02T15:51:19Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeMethod" is-config="true" duration-ms="1587" started-at="2021-06-07T16:33:43Z" finished-at="2021-06-07T16:33:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_04_Empty_Password()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="Login_04_Empty_Password" duration-ms="4786" started-at="2021-06-02T15:51:19Z" finished-at="2021-06-02T15:51:24Z">
+        <test-method status="PASS" signature="Login_04_Empty_Password()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="Login_04_Empty_Password" duration-ms="5083" started-at="2021-06-07T16:33:45Z" finished-at="2021-06-07T16:33:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_04_Empty_Password -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="beforeMethod" is-config="true" duration-ms="1378" started-at="2021-06-02T15:51:24Z" finished-at="2021-06-02T15:51:25Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeMethod" is-config="true" duration-ms="1569" started-at="2021-06-07T16:33:50Z" finished-at="2021-06-07T16:33:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_05_Invalid_Password()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="Login_05_Invalid_Password" duration-ms="4815" started-at="2021-06-02T15:51:25Z" finished-at="2021-06-02T15:51:30Z">
+        <test-method status="PASS" signature="Login_05_Invalid_Password()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="Login_05_Invalid_Password" duration-ms="5075" started-at="2021-06-07T16:33:51Z" finished-at="2021-06-07T16:33:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_05_Invalid_Password -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="beforeMethod" is-config="true" duration-ms="1207" started-at="2021-06-02T15:51:30Z" finished-at="2021-06-02T15:51:31Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeMethod" is-config="true" duration-ms="1646" started-at="2021-06-07T16:33:57Z" finished-at="2021-06-07T16:33:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_06_Incorrect_Password()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="Login_06_Incorrect_Password" duration-ms="4805" started-at="2021-06-02T15:51:31Z" finished-at="2021-06-02T15:51:36Z">
+        <test-method status="PASS" signature="Login_06_Incorrect_Password()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="Login_06_Incorrect_Password" duration-ms="5167" started-at="2021-06-07T16:33:58Z" finished-at="2021-06-07T16:34:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_06_Incorrect_Password -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="beforeMethod" is-config="true" duration-ms="1549" started-at="2021-06-02T15:51:36Z" finished-at="2021-06-02T15:51:37Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeMethod" is-config="true" duration-ms="1574" started-at="2021-06-07T16:34:03Z" finished-at="2021-06-07T16:34:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_07_Valid_Email_Password()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="Login_07_Valid_Email_Password" duration-ms="5196" started-at="2021-06-02T15:51:37Z" finished-at="2021-06-02T15:51:42Z">
+        <test-method status="PASS" signature="Login_07_Valid_Email_Password()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="Login_07_Valid_Email_Password" duration-ms="5805" started-at="2021-06-07T16:34:05Z" finished-at="2021-06-07T16:34:11Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_07_Valid_Email_Password -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wordpress.posts.Level_01_Login_Repeat_Yourself@4678c730]" name="afterClass" is-config="true" duration-ms="8507" started-at="2021-06-02T15:51:42Z" finished-at="2021-06-02T15:51:51Z">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="afterClass" is-config="true" duration-ms="8165" started-at="2021-06-07T16:34:11Z" finished-at="2021-06-07T16:34:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.wordpress.posts.Level_01_Login_Repeat_Yourself -->
+      </class> <!-- com.wordpress.posts.Level_03_Login_Page_Oject -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

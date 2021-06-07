@@ -20,7 +20,7 @@ public class Level_01_Login_Repeat_Yourself {
 	By usernameTextboxBy = By.xpath("//input[@id='usernameOrEmail']");
 	By continueButtonBy = By.xpath("//button[@type='submit']");
 	By passwordTextboxBy = By.xpath("//input[@id='password']");
-	By loginButtonBy = By.xpath(" //button[@type='submit']");
+	By loginButtonBy = By.xpath("//button[@type='submit']");
 
 	By emptyEmailErrorMessage = By.xpath("//span[text()='Please enter a username or email address.']");
 

@@ -1,6 +1,7 @@
 package commons;
 
 import java.util.List;
+import java.util.Random;
 import java.util.Set;
 
 import org.openqa.selenium.By;
@@ -354,5 +355,12 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(locator)));
 	}
 
-
+	public void sleepInSeconds(long time) {
+		try {
+			Thread.sleep(time * 1000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 }

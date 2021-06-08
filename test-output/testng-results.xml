@@ -1,77 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="60955" started-at="2021-06-07T16:33:18Z" finished-at="2021-06-07T16:34:19Z">
+  <suite name="Nop Commerce" duration-ms="21185" started-at="2021-06-08T15:47:26Z" finished-at="2021-06-08T15:47:47Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="60955" started-at="2021-06-07T16:33:18Z" finished-at="2021-06-07T16:34:19Z">
-      <class name="com.wordpress.posts.Level_03_Login_Page_Oject">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeClass" is-config="true" duration-ms="10239" started-at="2021-06-07T16:33:18Z" finished-at="2021-06-07T16:33:28Z">
+    <test name="Test" duration-ms="21185" started-at="2021-06-08T15:47:26Z" finished-at="2021-06-08T15:47:47Z">
+      <class name="com.nopcommerce.user.Level_03_Login_Page_Oject">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.nopcommerce.user.Level_03_Login_Page_Oject@58651fd0]" name="beforeClass" is-config="true" duration-ms="9758" started-at="2021-06-08T15:47:26Z" finished-at="2021-06-08T15:47:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeMethod" is-config="true" duration-ms="3332" started-at="2021-06-07T16:33:28Z" finished-at="2021-06-07T16:33:32Z">
+        <test-method status="PASS" signature="User_01_Register()[pri:0, instance:com.nopcommerce.user.Level_03_Login_Page_Oject@58651fd0]" name="User_01_Register" duration-ms="6425" started-at="2021-06-08T15:47:36Z" finished-at="2021-06-08T15:47:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_01_Empty_Email_Username()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="Login_01_Empty_Email_Username" duration-ms="2672" started-at="2021-06-07T16:33:32Z" finished-at="2021-06-07T16:33:34Z">
+        </test-method> <!-- User_01_Register -->
+        <test-method status="PASS" signature="User_02_Login()[pri:0, instance:com.nopcommerce.user.Level_03_Login_Page_Oject@58651fd0]" name="User_02_Login" duration-ms="3188" started-at="2021-06-08T15:47:42Z" finished-at="2021-06-08T15:47:45Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login_01_Empty_Email_Username -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeMethod" is-config="true" duration-ms="1999" started-at="2021-06-07T16:33:34Z" finished-at="2021-06-07T16:33:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_02_Ivalid_Email_Username()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="Login_02_Ivalid_Email_Username" duration-ms="2847" started-at="2021-06-07T16:33:36Z" finished-at="2021-06-07T16:33:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_02_Ivalid_Email_Username -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeMethod" is-config="true" duration-ms="1543" started-at="2021-06-07T16:33:39Z" finished-at="2021-06-07T16:33:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_03_Username_Not_Exist()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="Login_03_Username_Not_Exist" duration-ms="2613" started-at="2021-06-07T16:33:41Z" finished-at="2021-06-07T16:33:43Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_03_Username_Not_Exist -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeMethod" is-config="true" duration-ms="1587" started-at="2021-06-07T16:33:43Z" finished-at="2021-06-07T16:33:45Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_04_Empty_Password()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="Login_04_Empty_Password" duration-ms="5083" started-at="2021-06-07T16:33:45Z" finished-at="2021-06-07T16:33:50Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_04_Empty_Password -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeMethod" is-config="true" duration-ms="1569" started-at="2021-06-07T16:33:50Z" finished-at="2021-06-07T16:33:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_05_Invalid_Password()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="Login_05_Invalid_Password" duration-ms="5075" started-at="2021-06-07T16:33:51Z" finished-at="2021-06-07T16:33:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_05_Invalid_Password -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeMethod" is-config="true" duration-ms="1646" started-at="2021-06-07T16:33:57Z" finished-at="2021-06-07T16:33:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_06_Incorrect_Password()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="Login_06_Incorrect_Password" duration-ms="5167" started-at="2021-06-07T16:33:58Z" finished-at="2021-06-07T16:34:03Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_06_Incorrect_Password -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="beforeMethod" is-config="true" duration-ms="1574" started-at="2021-06-07T16:34:03Z" finished-at="2021-06-07T16:34:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_07_Valid_Email_Password()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="Login_07_Valid_Email_Password" duration-ms="5805" started-at="2021-06-07T16:34:05Z" finished-at="2021-06-07T16:34:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_07_Valid_Email_Password -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wordpress.posts.Level_03_Login_Page_Oject@4520ebad]" name="afterClass" is-config="true" duration-ms="8165" started-at="2021-06-07T16:34:11Z" finished-at="2021-06-07T16:34:19Z">
+        </test-method> <!-- User_02_Login -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Level_03_Login_Page_Oject@58651fd0]" name="afterClass" is-config="true" duration-ms="1791" started-at="2021-06-08T15:47:45Z" finished-at="2021-06-08T15:47:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.wordpress.posts.Level_03_Login_Page_Oject -->
+      </class> <!-- com.nopcommerce.user.Level_03_Login_Page_Oject -->
     </test> <!-- Test -->
-  </suite> <!-- Suite -->
+  </suite> <!-- Nop Commerce -->
 </testng-results>

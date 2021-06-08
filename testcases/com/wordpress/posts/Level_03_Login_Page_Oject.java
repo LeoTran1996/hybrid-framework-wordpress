@@ -11,8 +11,8 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import pageOjects.DashboardPageOject;
-import pageOjects.LoginPageOject;
+import pageOjects.wordpress.DashboardPageOject;
+import pageOjects.wordpress.LoginPageOject;
 
 public class Level_03_Login_Page_Oject {
 

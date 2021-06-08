@@ -117,7 +117,7 @@ public class BasePage {
 	public void clickToElement(WebDriver driver, String locator) {
 		getWebElement(driver, locator).click();
 	}
-
+	
 	public void clickToElement(WebElement element) {
 		element.click();
 	}

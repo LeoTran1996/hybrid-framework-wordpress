@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Multi Browser]">
+  <test thread-count="5" name="Run On FIREFOX(failed)">
+    <classes>
+      <class name="com.wordpress.posts.Level_04_Login_Multi_Browser">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="Login_07_Valid_Email_Password"/>
+          <include name="Login_01_Empty_Email_Username"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.wordpress.posts.Level_04_Login_Multi_Browser -->
+    </classes>
+  </test> <!-- Run On FIREFOX(failed) -->
+  <test thread-count="5" name="Run On CHROME(failed)">
+    <classes>
+      <class name="com.wordpress.posts.Level_04_Login_Multi_Browser">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="Login_07_Valid_Email_Password"/>
+          <include name="Login_01_Empty_Email_Username"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.wordpress.posts.Level_04_Login_Multi_Browser -->
+    </classes>
+  </test> <!-- Run On CHROME(failed) -->
+  <test thread-count="5" name="Run On EDGE CHROMIUM(failed)">
+    <classes>
+      <class name="com.wordpress.posts.Level_04_Login_Multi_Browser">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="Login_07_Valid_Email_Password"/>
+          <include name="Login_01_Empty_Email_Username"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.wordpress.posts.Level_04_Login_Multi_Browser -->
+    </classes>
+  </test> <!-- Run On EDGE CHROMIUM(failed) -->
+</suite> <!-- Failed suite [Multi Browser] -->

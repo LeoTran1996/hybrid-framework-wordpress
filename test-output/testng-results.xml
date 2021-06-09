@@ -1,29 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Nop Commerce" duration-ms="21185" started-at="2021-06-08T15:47:26Z" finished-at="2021-06-08T15:47:47Z">
+  <suite name="Word Press" duration-ms="71490" started-at="2021-06-09T15:53:28Z" finished-at="2021-06-09T15:54:39Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="21185" started-at="2021-06-08T15:47:26Z" finished-at="2021-06-08T15:47:47Z">
-      <class name="com.nopcommerce.user.Level_03_Login_Page_Oject">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.nopcommerce.user.Level_03_Login_Page_Oject@58651fd0]" name="beforeClass" is-config="true" duration-ms="9758" started-at="2021-06-08T15:47:26Z" finished-at="2021-06-08T15:47:36Z">
+    <test name="Run on FIREFOX" duration-ms="32316" started-at="2021-06-09T15:53:28Z" finished-at="2021-06-09T15:54:00Z">
+      <class name="com.wordpress.posts.Level_04_Login_Multi_Browser">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@548a9f61]" name="beforeClass" is-config="true" duration-ms="8304" started-at="2021-06-09T15:53:28Z" finished-at="2021-06-09T15:53:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="User_01_Register()[pri:0, instance:com.nopcommerce.user.Level_03_Login_Page_Oject@58651fd0]" name="User_01_Register" duration-ms="6425" started-at="2021-06-08T15:47:36Z" finished-at="2021-06-08T15:47:42Z">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@548a9f61]" name="beforeMethod" is-config="true" duration-ms="4137" started-at="2021-06-09T15:53:36Z" finished-at="2021-06-09T15:53:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://automationfc.wordpress.com/wp-admin/]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- User_01_Register -->
-        <test-method status="PASS" signature="User_02_Login()[pri:0, instance:com.nopcommerce.user.Level_03_Login_Page_Oject@58651fd0]" name="User_02_Login" duration-ms="3188" started-at="2021-06-08T15:47:42Z" finished-at="2021-06-08T15:47:45Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Login_01_Empty_Email_Username()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@548a9f61]" name="Login_01_Empty_Email_Username" duration-ms="2627" started-at="2021-06-09T15:53:40Z" finished-at="2021-06-09T15:53:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- User_02_Login -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Level_03_Login_Page_Oject@58651fd0]" name="afterClass" is-config="true" duration-ms="1791" started-at="2021-06-08T15:47:45Z" finished-at="2021-06-08T15:47:47Z">
+        </test-method> <!-- Login_01_Empty_Email_Username -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@548a9f61]" name="beforeMethod" is-config="true" duration-ms="2197" started-at="2021-06-09T15:53:43Z" finished-at="2021-06-09T15:53:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://automationfc.wordpress.com/wp-admin/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Login_07_Valid_Email_Password()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@548a9f61]" name="Login_07_Valid_Email_Password" duration-ms="6223" started-at="2021-06-09T15:53:45Z" finished-at="2021-06-09T15:53:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_07_Valid_Email_Password -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@548a9f61]" name="afterClass" is-config="true" duration-ms="8808" started-at="2021-06-09T15:53:51Z" finished-at="2021-06-09T15:54:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- com.nopcommerce.user.Level_03_Login_Page_Oject -->
-    </test> <!-- Test -->
-  </suite> <!-- Nop Commerce -->
+      </class> <!-- com.wordpress.posts.Level_04_Login_Multi_Browser -->
+    </test> <!-- Run on FIREFOX -->
+    <test name="Run on CHROME" duration-ms="16833" started-at="2021-06-09T15:54:00Z" finished-at="2021-06-09T15:54:17Z">
+      <class name="com.wordpress.posts.Level_04_Login_Multi_Browser">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@5b275dab]" name="beforeClass" is-config="true" duration-ms="2319" started-at="2021-06-09T15:54:00Z" finished-at="2021-06-09T15:54:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@5b275dab]" name="beforeMethod" is-config="true" duration-ms="3917" started-at="2021-06-09T15:54:03Z" finished-at="2021-06-09T15:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://automationfc.wordpress.com/wp-admin/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Login_01_Empty_Email_Username()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@5b275dab]" name="Login_01_Empty_Email_Username" duration-ms="2382" started-at="2021-06-09T15:54:06Z" finished-at="2021-06-09T15:54:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_01_Empty_Email_Username -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@5b275dab]" name="beforeMethod" is-config="true" duration-ms="1448" started-at="2021-06-09T15:54:09Z" finished-at="2021-06-09T15:54:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://automationfc.wordpress.com/wp-admin/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Login_07_Valid_Email_Password()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@5b275dab]" name="Login_07_Valid_Email_Password" duration-ms="6013" started-at="2021-06-09T15:54:10Z" finished-at="2021-06-09T15:54:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_07_Valid_Email_Password -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@5b275dab]" name="afterClass" is-config="true" duration-ms="748" started-at="2021-06-09T15:54:16Z" finished-at="2021-06-09T15:54:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.wordpress.posts.Level_04_Login_Multi_Browser -->
+    </test> <!-- Run on CHROME -->
+    <test name="Run on EDGE CHROMIUM" duration-ms="22274" started-at="2021-06-09T15:54:17Z" finished-at="2021-06-09T15:54:39Z">
+      <class name="com.wordpress.posts.Level_04_Login_Multi_Browser">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@68c4039c]" name="beforeClass" is-config="true" duration-ms="1863" started-at="2021-06-09T15:54:17Z" finished-at="2021-06-09T15:54:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge_chromium]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@68c4039c]" name="beforeMethod" is-config="true" duration-ms="5380" started-at="2021-06-09T15:54:19Z" finished-at="2021-06-09T15:54:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://automationfc.wordpress.com/wp-admin/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Login_01_Empty_Email_Username()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@68c4039c]" name="Login_01_Empty_Email_Username" duration-ms="2475" started-at="2021-06-09T15:54:24Z" finished-at="2021-06-09T15:54:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_01_Empty_Email_Username -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@68c4039c]" name="beforeMethod" is-config="true" duration-ms="2288" started-at="2021-06-09T15:54:27Z" finished-at="2021-06-09T15:54:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://automationfc.wordpress.com/wp-admin/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="Login_07_Valid_Email_Password()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@68c4039c]" name="Login_07_Valid_Email_Password" duration-ms="8801" started-at="2021-06-09T15:54:29Z" finished-at="2021-06-09T15:54:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_07_Valid_Email_Password -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@68c4039c]" name="afterClass" is-config="true" duration-ms="1454" started-at="2021-06-09T15:54:38Z" finished-at="2021-06-09T15:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.wordpress.posts.Level_04_Login_Multi_Browser -->
+    </test> <!-- Run on EDGE CHROMIUM -->
+  </suite> <!-- Word Press -->
 </testng-results>

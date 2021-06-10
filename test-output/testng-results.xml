@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Word Press" duration-ms="46663" started-at="2021-06-10T16:40:52 ICT" finished-at="2021-06-10T16:41:38 ICT">
+  <suite name="Word Press" duration-ms="145731" started-at="2021-06-10T14:11:04Z" finished-at="2021-06-10T14:13:30Z">
     <groups>
     </groups>
-    <test name="Run on FIREFOX" duration-ms="19443" started-at="2021-06-10T16:40:52 ICT" finished-at="2021-06-10T16:41:11 ICT">
+    <test name="Run on FIREFOX" duration-ms="79602" started-at="2021-06-10T14:11:04Z" finished-at="2021-06-10T14:12:24Z">
       <class name="com.wordpress.posts.Level_04_Login_Multi_Browser">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@3712b94]" name="beforeClass" is-config="true" duration-ms="4970" started-at="2021-06-10T16:40:52 ICT" finished-at="2021-06-10T16:40:57 ICT">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@55f3ddb1]" name="beforeClass" is-config="true" duration-ms="46770" started-at="2021-06-10T14:11:04Z" finished-at="2021-06-10T14:11:51Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@3712b94]" name="beforeMethod" is-config="true" duration-ms="2872" started-at="2021-06-10T16:40:57 ICT" finished-at="2021-06-10T16:41:00 ICT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@55f3ddb1]" name="beforeMethod" is-config="true" duration-ms="5446" started-at="2021-06-10T14:11:51Z" finished-at="2021-06-10T14:11:57Z">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_01_Empty_Email_Username()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@3712b94]" name="Login_01_Empty_Email_Username" duration-ms="2643" started-at="2021-06-10T16:41:00 ICT" finished-at="2021-06-10T16:41:02 ICT">
+        <test-method status="PASS" signature="Login_01_Empty_Email_Username()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@55f3ddb1]" name="Login_01_Empty_Email_Username" duration-ms="3959" started-at="2021-06-10T14:11:57Z" finished-at="2021-06-10T14:12:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_01_Empty_Email_Username -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@3712b94]" name="beforeMethod" is-config="true" duration-ms="2255" started-at="2021-06-10T16:41:02 ICT" finished-at="2021-06-10T16:41:04 ICT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@55f3ddb1]" name="beforeMethod" is-config="true" duration-ms="2565" started-at="2021-06-10T14:12:01Z" finished-at="2021-06-10T14:12:03Z">
           <params>
             <param index="0">
               <value>
@@ -44,19 +44,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_07_Valid_Email_Password()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@3712b94]" name="Login_07_Valid_Email_Password" duration-ms="5448" started-at="2021-06-10T16:41:04 ICT" finished-at="2021-06-10T16:41:10 ICT">
+        <test-method status="PASS" signature="Login_07_Valid_Email_Password()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@55f3ddb1]" name="Login_07_Valid_Email_Password" duration-ms="10155" started-at="2021-06-10T14:12:03Z" finished-at="2021-06-10T14:12:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_07_Valid_Email_Password -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@3712b94]" name="afterClass" is-config="true" duration-ms="1216" started-at="2021-06-10T16:41:10 ICT" finished-at="2021-06-10T16:41:11 ICT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@55f3ddb1]" name="afterClass" is-config="true" duration-ms="10683" started-at="2021-06-10T14:12:13Z" finished-at="2021-06-10T14:12:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.wordpress.posts.Level_04_Login_Multi_Browser -->
     </test> <!-- Run on FIREFOX -->
-    <test name="Run on CHROME" duration-ms="13319" started-at="2021-06-10T16:41:11 ICT" finished-at="2021-06-10T16:41:25 ICT">
+    <test name="Run on CHROME" duration-ms="26432" started-at="2021-06-10T14:12:24Z" finished-at="2021-06-10T14:12:51Z">
       <class name="com.wordpress.posts.Level_04_Login_Multi_Browser">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@307f6b8c]" name="beforeClass" is-config="true" duration-ms="1367" started-at="2021-06-10T16:41:11 ICT" finished-at="2021-06-10T16:41:13 ICT">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@6a4f787b]" name="beforeClass" is-config="true" duration-ms="5779" started-at="2021-06-10T14:12:24Z" finished-at="2021-06-10T14:12:30Z">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@307f6b8c]" name="beforeMethod" is-config="true" duration-ms="2373" started-at="2021-06-10T16:41:13 ICT" finished-at="2021-06-10T16:41:15 ICT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="7984" started-at="2021-06-10T14:12:30Z" finished-at="2021-06-10T14:12:38Z">
           <params>
             <param index="0">
               <value>
@@ -78,11 +78,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_01_Empty_Email_Username()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@307f6b8c]" name="Login_01_Empty_Email_Username" duration-ms="2358" started-at="2021-06-10T16:41:15 ICT" finished-at="2021-06-10T16:41:17 ICT">
+        <test-method status="PASS" signature="Login_01_Empty_Email_Username()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@6a4f787b]" name="Login_01_Empty_Email_Username" duration-ms="2379" started-at="2021-06-10T14:12:38Z" finished-at="2021-06-10T14:12:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_01_Empty_Email_Username -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@307f6b8c]" name="beforeMethod" is-config="true" duration-ms="1238" started-at="2021-06-10T16:41:17 ICT" finished-at="2021-06-10T16:41:19 ICT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@6a4f787b]" name="beforeMethod" is-config="true" duration-ms="1444" started-at="2021-06-10T14:12:40Z" finished-at="2021-06-10T14:12:42Z">
           <params>
             <param index="0">
               <value>
@@ -93,19 +93,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_07_Valid_Email_Password()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@307f6b8c]" name="Login_07_Valid_Email_Password" duration-ms="5289" started-at="2021-06-10T16:41:19 ICT" finished-at="2021-06-10T16:41:24 ICT">
+        <test-method status="PASS" signature="Login_07_Valid_Email_Password()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@6a4f787b]" name="Login_07_Valid_Email_Password" duration-ms="8073" started-at="2021-06-10T14:12:42Z" finished-at="2021-06-10T14:12:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_07_Valid_Email_Password -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@307f6b8c]" name="afterClass" is-config="true" duration-ms="685" started-at="2021-06-10T16:41:24 ICT" finished-at="2021-06-10T16:41:25 ICT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@6a4f787b]" name="afterClass" is-config="true" duration-ms="766" started-at="2021-06-10T14:12:50Z" finished-at="2021-06-10T14:12:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.wordpress.posts.Level_04_Login_Multi_Browser -->
     </test> <!-- Run on CHROME -->
-    <test name="Run on EDGE CHROMIUM" duration-ms="13856" started-at="2021-06-10T16:41:25 ICT" finished-at="2021-06-10T16:41:38 ICT">
+    <test name="Run on EDGE CHROMIUM" duration-ms="39429" started-at="2021-06-10T14:12:51Z" finished-at="2021-06-10T14:13:30Z">
       <class name="com.wordpress.posts.Level_04_Login_Multi_Browser">
-        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@2353b3e6]" name="beforeClass" is-config="true" duration-ms="1628" started-at="2021-06-10T16:41:25 ICT" finished-at="2021-06-10T16:41:26 ICT">
+        <test-method status="PASS" signature="beforeClass(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@4883b407]" name="beforeClass" is-config="true" duration-ms="18486" started-at="2021-06-10T14:12:51Z" finished-at="2021-06-10T14:13:09Z">
           <params>
             <param index="0">
               <value>
@@ -116,7 +116,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@2353b3e6]" name="beforeMethod" is-config="true" duration-ms="2532" started-at="2021-06-10T16:41:26 ICT" finished-at="2021-06-10T16:41:29 ICT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@4883b407]" name="beforeMethod" is-config="true" duration-ms="4930" started-at="2021-06-10T14:13:09Z" finished-at="2021-06-10T14:13:14Z">
           <params>
             <param index="0">
               <value>
@@ -127,11 +127,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_01_Empty_Email_Username()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@2353b3e6]" name="Login_01_Empty_Email_Username" duration-ms="2343" started-at="2021-06-10T16:41:29 ICT" finished-at="2021-06-10T16:41:31 ICT">
+        <test-method status="PASS" signature="Login_01_Empty_Email_Username()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@4883b407]" name="Login_01_Empty_Email_Username" duration-ms="2505" started-at="2021-06-10T14:13:14Z" finished-at="2021-06-10T14:13:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_01_Empty_Email_Username -->
-        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@2353b3e6]" name="beforeMethod" is-config="true" duration-ms="1185" started-at="2021-06-10T16:41:31 ICT" finished-at="2021-06-10T16:41:32 ICT">
+        <test-method status="PASS" signature="beforeMethod(java.lang.String)[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@4883b407]" name="beforeMethod" is-config="true" duration-ms="1780" started-at="2021-06-10T14:13:17Z" finished-at="2021-06-10T14:13:18Z">
           <params>
             <param index="0">
               <value>
@@ -142,11 +142,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="Login_07_Valid_Email_Password()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@2353b3e6]" name="Login_07_Valid_Email_Password" duration-ms="5320" started-at="2021-06-10T16:41:32 ICT" finished-at="2021-06-10T16:41:38 ICT">
+        <test-method status="PASS" signature="Login_07_Valid_Email_Password()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@4883b407]" name="Login_07_Valid_Email_Password" duration-ms="10765" started-at="2021-06-10T14:13:18Z" finished-at="2021-06-10T14:13:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login_07_Valid_Email_Password -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@2353b3e6]" name="afterClass" is-config="true" duration-ms="841" started-at="2021-06-10T16:41:38 ICT" finished-at="2021-06-10T16:41:38 ICT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.wordpress.posts.Level_04_Login_Multi_Browser@4883b407]" name="afterClass" is-config="true" duration-ms="955" started-at="2021-06-10T14:13:29Z" finished-at="2021-06-10T14:13:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

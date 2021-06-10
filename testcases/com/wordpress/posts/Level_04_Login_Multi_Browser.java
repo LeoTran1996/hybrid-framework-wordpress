@@ -12,18 +12,18 @@ import commons.BaseTest;
 import pageOjects.wordpress.DashboardPageOject;
 import pageOjects.wordpress.LoginPageOject;
 
-public class Level_04_Login_Multi_Browser extends BaseTest{
+public class Level_04_Login_Multi_Browser extends BaseTest {
 
 	WebDriver driver;
 	DashboardPageOject dashboardPage;
 	LoginPageOject loginPage;
-	
+
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
 		driver = getBrowserDriver(browserName);
 	}
-	
+
 	@Parameters("url")
 	@BeforeMethod
 	public void beforeMethod(String appUrl) {
@@ -40,16 +40,14 @@ public class Level_04_Login_Multi_Browser extends BaseTest{
 		Assert.assertTrue(loginPage.isEmptyEmailErrorMessageDisplayed());
 	}
 
-	
 	public void Login_02_Ivalid_Email_Username() {
 		loginPage.inputToEmailTextbox("anhtran1996#<>");
-		loginPage.clickToContinueButton();		
+		loginPage.clickToContinueButton();
 		loginPage.sleepInSecond(2);
 		String userDoesNotExistMessage = loginPage.getInvalidEmailErrorMessage();
-		Assert.assertEquals(userDoesNotExistMessage, "User does not exist. Would you like to create a new account?");	
+		Assert.assertEquals(userDoesNotExistMessage, "User does not exist. Would you like to create a new account?");
 	}
 
-	
 	public void Login_03_Username_Not_Exist() {
 		loginPage.inputToEmailTextbox("anhtran" + getRandomNumber());
 		loginPage.clickToContinueButton();
@@ -59,9 +57,8 @@ public class Level_04_Login_Multi_Browser extends BaseTest{
 
 	}
 
-	
 	public void Login_04_Empty_Password() {
-		
+
 		loginPage.inputToEmailTextbox("automationeditor");
 		loginPage.clickToContinueButton();
 		loginPage.sleepInSecond(2);
@@ -72,7 +69,6 @@ public class Level_04_Login_Multi_Browser extends BaseTest{
 
 	}
 
-	
 	public void Login_05_Invalid_Password() {
 		loginPage.inputToEmailTextbox("automationeditor");
 		loginPage.clickToContinueButton();
@@ -83,7 +79,6 @@ public class Level_04_Login_Multi_Browser extends BaseTest{
 		Assert.assertTrue(loginPage.isInvalidPasswordErrorMessageDisplayed());
 	}
 
-	
 	public void Login_06_Incorrect_Password() {
 
 		loginPage.inputToEmailTextbox("automationeditor");
@@ -108,7 +103,7 @@ public class Level_04_Login_Multi_Browser extends BaseTest{
 		Assert.assertTrue(dashboardPage.isDashboardHeaderTextDisplayed());
 
 	}
-	
+
 	@AfterClass
 	public void afterClass() {
 		driver.quit();

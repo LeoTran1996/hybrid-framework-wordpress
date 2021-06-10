@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Word Press]">
   <parameter name="url" value="https://automationfc.wordpress.com/wp-admin/"/>
-  <test thread-count="5" name="Run on CHROME(failed)">
-    <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Run on FIREFOX(failed)">
+    <parameter name="browser" value="firefox"/>
     <classes>
       <class name="com.wordpress.posts.Level_04_Login_Multi_Browser">
         <methods>
           <include name="beforeMethod"/>
-          <include name="beforeClass"/>
           <include name="Login_07_Valid_Email_Password"/>
+          <include name="beforeClass"/>
           <include name="afterClass"/>
+          <include name="Login_01_Empty_Email_Username"/>
         </methods>
       </class> <!-- com.wordpress.posts.Level_04_Login_Multi_Browser -->
     </classes>
-  </test> <!-- Run on CHROME(failed) -->
+  </test> <!-- Run on FIREFOX(failed) -->
 </suite> <!-- Failed suite [Word Press] -->

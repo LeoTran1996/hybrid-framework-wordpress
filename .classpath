@@ -8,6 +8,18 @@
 	<classpathentry kind="src" path="javaCore"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="libraries/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="librabyWebDriverManagement/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="librabyWebDriverManagement/commons-collections4-4.3.jar"/>
+	<classpathentry kind="lib" path="librabyWebDriverManagement/commons-compress-1.20.jar"/>
+	<classpathentry kind="lib" path="librabyWebDriverManagement/commons-io-2.7.jar"/>
+	<classpathentry kind="lib" path="librabyWebDriverManagement/commons-lang3-3.11.jar"/>
+	<classpathentry kind="lib" path="librabyWebDriverManagement/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="librabyWebDriverManagement/httpclient5-5.0.1.jar"/>
+	<classpathentry kind="lib" path="librabyWebDriverManagement/httpcore5-5.0.1.jar"/>
+	<classpathentry kind="lib" path="librabyWebDriverManagement/jarchivelib-1.0.0.jar"/>
+	<classpathentry kind="lib" path="librabyWebDriverManagement/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="librabyWebDriverManagement/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="librabyWebDriverManagement/webdrivermanager-4.2.0.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

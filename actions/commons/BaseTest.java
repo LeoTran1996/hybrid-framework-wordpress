@@ -16,14 +16,15 @@ public class BaseTest {
 	private String osName = System.getProperty("os.name");
 
 	protected WebDriver getBrowserDriver(String browserName) {
+		Browser browser = Browser.valueOf(browserName.toUpperCase());
 		
-		if (browserName.equalsIgnoreCase("firefox")) {
+		if (browser == Browser.FIREFOX) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
-		} else if (browserName.equalsIgnoreCase("chrome")) {
+		} else if (browser == Browser.CHROME) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
-		} else if (browserName.equalsIgnoreCase("edge_chromium")) {
+		} else if (browser == Browser.EDGE_CHROMIUM) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 		} else {

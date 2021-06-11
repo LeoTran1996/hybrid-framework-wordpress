@@ -30,7 +30,29 @@ public class BaseTest {
 		} else {
 			throw new RuntimeException("Input valid browser name");
 		}
-
+		
+		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
+		
+		return driver;
+		
+	}
+	
+	protected WebDriver getBrowserDriver(String browserName, String url) {
+		Browser browser = Browser.valueOf(browserName.toUpperCase());
+		
+		if (browser == Browser.FIREFOX) {
+			WebDriverManager.firefoxdriver().setup();
+			driver = new FirefoxDriver();
+		} else if (browser == Browser.CHROME) {
+			WebDriverManager.chromedriver().setup();
+			driver = new ChromeDriver();
+		} else if (browser == Browser.EDGE_CHROMIUM) {
+			WebDriverManager.edgedriver().setup();
+			driver = new EdgeDriver();
+		} else {
+			throw new RuntimeException("Input valid browser name");
+		}
+		driver.get(url);
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
 		return driver;

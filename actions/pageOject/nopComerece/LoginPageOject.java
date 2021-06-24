@@ -8,9 +8,11 @@ import commons.BasePage;
 public class LoginPageOject extends BasePage {
 	
 	WebDriver driver;
+	PageGeneratorManager pageGenerator;
 	
 	public LoginPageOject(WebDriver driver) {
 		this.driver = driver;
+		//pageGenerator = PageGeneratorManager.getPageGenerator();
 	}
 
 	public void enterToEmailTextbox(String emailAdress) {
@@ -24,8 +26,9 @@ public class LoginPageOject extends BasePage {
 		
 	}
 
-	public void clickToLoginButton() {
+	public HomePageOject clickToLoginButton() {
 		waitforElementClickable(driver, LoginPageUI.LOGIN_BUTTON);
-		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);		
+		clickToElement(driver, LoginPageUI.LOGIN_BUTTON);	
+		return PageGeneratorManager.getHomePageOject(driver);
 	}
 }

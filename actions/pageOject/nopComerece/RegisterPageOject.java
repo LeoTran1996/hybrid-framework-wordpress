@@ -8,9 +8,11 @@ import commons.BasePage;
 public class RegisterPageOject extends BasePage {
 	
 	WebDriver driver;
+	PageGeneratorManager pageGenerator;
 	
 	public RegisterPageOject(WebDriver driver) {
 		this.driver = driver;
+		//pageGenerator = PageGeneratorManager.getPageGenerator();
 	}
 
 	public void enterToFirstNameTextbox(String firstname) {
@@ -51,9 +53,9 @@ public class RegisterPageOject extends BasePage {
 		return isElementDisplayed(driver, RegisterPageUI.REGISTER_SUCCESSMESSAGE);
 	}
 
-	public void clickToLogoutLink() {
+	public HomePageOject clickToLogoutLink() {
 		waitforElementClickable(driver, RegisterPageUI.LOGOUT_LINK);
 		clickToElement(driver, RegisterPageUI.LOGOUT_LINK);
-		
+		return PageGeneratorManager.getHomePageOject(driver);
 	}
 }

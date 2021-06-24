@@ -40,4 +40,6 @@ public class HomePageOject extends BasePage{
 		waitforElementVisible(driver, myAccountLink);
 		return isElementDisplayed(driver, myAccountLink);
 	}
+ 
+
 }

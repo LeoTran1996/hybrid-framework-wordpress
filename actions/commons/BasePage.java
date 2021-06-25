@@ -1,7 +1,6 @@
 package commons;
 
 import java.util.List;
-import java.util.Random;
 import java.util.Set;
 
 import org.openqa.selenium.By;
@@ -14,6 +13,18 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import PageUIs.nopCommerce.BasePageUI;
+import PageUIs.nopCommerce.CustomerPageUI;
+import PageUIs.nopCommerce.NewsPageUI;
+import PageUIs.nopCommerce.ShoppingCartPageUI;
+import PageUIs.nopCommerce.SiteMapPageUI;
+import pageOject.nopComerece.AboutUsPageOject;
+import pageOject.nopComerece.HomePageOject;
+import pageOject.nopComerece.NewsPageOject;
+import pageOject.nopComerece.PageGeneratorManager;
+import pageOject.nopComerece.ShoppingCartPageOject;
+import pageOject.nopComerece.SiteMapPageOject;
 
 public class BasePage {
 	
@@ -367,4 +378,42 @@ public class BasePage {
 			e.printStackTrace();
 		}
 	}
+	
+/* Common Page Oject*/
+	
+	public SiteMapPageOject openSiteMapPage(WebDriver driver) {
+		waitforElementClickable(driver, BasePageUI.SITEMAP_LINK);
+		clickToElement( driver, BasePageUI.SITEMAP_LINK);
+		return PageGeneratorManager.getSiteMapPageOject(driver);
+	}
+	
+	public HomePageOject openHomePage(WebDriver driver) {
+		waitforElementClickable(driver, BasePageUI.HOME_PAGE_IMG);
+		clickToElement( driver, BasePageUI.HOME_PAGE_IMG);
+		return PageGeneratorManager.getHomePageOject(driver);
+	}
+
+	public ShoppingCartPageOject openShoppingCartPage(WebDriver driver) {
+		waitforElementClickable( driver, BasePageUI.SHOPPING_CART_LINK);
+		clickToElement(driver, BasePageUI.SHOPPING_CART_LINK);
+		return PageGeneratorManager.getShoppingCartPageOject(driver);
+	}
+	
+	public AboutUsPageOject openAboutUsPage(WebDriver driver) {
+		waitforElementClickable( driver, BasePageUI.ABOUT_US);
+		clickToElement( driver, BasePageUI.ABOUT_US);
+		return PageGeneratorManager.getAboutUsPageOject( driver);
+	}
+	
+	public NewsPageOject openNewsPage(WebDriver driver) {
+		waitforElementClickable( driver, BasePageUI.NEWS_LINK);
+		clickToElement( driver, BasePageUI.NEWS_LINK);
+		return PageGeneratorManager.getNewsPageOject( driver);
+	}
+
+
 }
+
+
+
+

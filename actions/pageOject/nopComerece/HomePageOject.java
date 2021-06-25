@@ -36,9 +36,10 @@ public class HomePageOject extends BasePage {
 
 	public CustomerInforPageOject clickToMyAccountLink() {
 		waitforElementClickable(driver, HomePageUI.MY_ACCOUNT_LINK);
-		clickToElement(driver, HomePageUI.MY_ACCOUNT_LINK);
+		clickToElement(driver, HomePageUI.MY_ACCOUNT_LINK);	
 		return PageGeneratorManager.getCustomerPageOject(driver);
+		
 	}
-	
+
 	
 }

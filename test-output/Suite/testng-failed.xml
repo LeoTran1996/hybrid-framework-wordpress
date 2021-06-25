@@ -5,15 +5,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.nopcommerce.user.Level_06_Login_Page_Generator_Manager_Part_II">
+      <class name="com.nopcommerce.user.Level_07_Login_Page_Switch_Page">
         <methods>
-          <include name="User_03_Customer_Infor"/>
           <include name="afterClass"/>
-          <include name="User_01_Register"/>
-          <include name="User_02_Login"/>
+          <include name="User_04_Switch_Page"/>
           <include name="beforeClass"/>
         </methods>
-      </class> <!-- com.nopcommerce.user.Level_06_Login_Page_Generator_Manager_Part_II -->
+      </class> <!-- com.nopcommerce.user.Level_07_Login_Page_Switch_Page -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.nopcommerce.user.Level_13_Register_Login_ExtentReport">
+        <methods>
+          <include name="deleteAllFileInReportNGScreenShot"/>
+          <include name="afterClass"/>
+          <include name="User_01_Register"/>
+          <include name="beforeClass"/>
+          <include name="User_02_Login"/>
+        </methods>
+      </class> <!-- com.nopcommerce.user.Level_13_Register_Login_ExtentReport -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [JQuery DataTable]">
+  <parameter name="url" value="https://www.jqueryscript.net/demo/CRUD-Data-Grid-Plugin-jQuery-Quickgrid/"/>
+  <test thread-count="5" name="Run on Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.jquery.table.Level_09_Data_Table">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="Table_04_Edit_Delete"/>
+        </methods>
+      </class> <!-- com.jquery.table.Level_09_Data_Table -->
+    </classes>
+  </test> <!-- Run on Firefox(failed) -->
+</suite> <!-- Failed suite [JQuery DataTable] -->

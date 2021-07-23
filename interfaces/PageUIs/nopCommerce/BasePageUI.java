@@ -10,5 +10,14 @@ public class BasePageUI {
 	
 	// Co 1 tham so = dynamic page name
 	public static final String FOOTER_PAGE_LINK_BY_NAME = "//div[@class='footer']//a[text()='%s']";
+	
+	public static final String DYNAMIC_PAGE_HEADER = "//div[@class='header']//a[text()='%s']";
+
+	public static final String DYNAMIC_TEXTBOX_BY_ID = "//input[@id='%s']";
+	
+	public static final String DYNAMIC_DROPDOWN_BY_NAME = "//select[@name='%s']";
+	
+	public static final String DYNAMIC_BUTTON_BY_TEXT = "//button[text()='%s']";	
 }
+
 

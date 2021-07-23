@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on firefox"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.110">
+  <properties />
+  
+  
+            <testcase name="User_01_Login" time="0.100" classname="com.nopcommerce.user.Level_14_Register_Login_Share_Stage" />
+                <testcase name="User_02_Login" time="0.010" classname="com.nopcommerce.user.Level_14_Register_Login_Share_Stage" />
+      
+</testsuite>

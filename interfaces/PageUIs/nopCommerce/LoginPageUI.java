@@ -8,5 +8,7 @@ public class LoginPageUI {
 
 	public static final String LOGIN_BUTTON = "//button[@class='button-1 login-button']";
 	
+	public static final String HOMPAGE_LOGO = "//img[@alt='nopCommerce demo store']";
+	
 	
 }

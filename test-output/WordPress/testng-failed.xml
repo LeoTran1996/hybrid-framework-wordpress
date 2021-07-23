@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [WordPress]">
+  <parameter name="url" value="https://automationfc.wordpress.com/wp-admin"/>
+  <listeners>
+    <listener class-name="commons.MethodListener"/>
+  </listeners>
+  <test thread-count="5" name="Run on Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.wordpress.posts.Level_12_Assert_Verify">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="Login_01_Assert"/>
+          <include name="afterClass"/>
+          <include name="Login_02_Verify"/>
+        </methods>
+      </class> <!-- com.wordpress.posts.Level_12_Assert_Verify -->
+    </classes>
+  </test> <!-- Run on Firefox(failed) -->
+</suite> <!-- Failed suite [WordPress] -->

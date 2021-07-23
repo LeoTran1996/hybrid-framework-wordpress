@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]">
+<suite thread-count="3" name="Failed suite [Suite]" parallel="tests">
   <parameter name="url" value="https://demo.nopcommerce.com/"/>
-  <test thread-count="5" name="Test(failed)">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="commons.MethodListener"/>
+    <listener class-name="reportConfig.ExtentTestListener"/>
+  </listeners>
+  <test thread-count="3" name="Run on firefox(failed)" parallel="tests">
     <parameter name="browser" value="firefox"/>
     <classes>
-      <class name="com.nopcommerce.user.Level_08_Login_Page_Dynamic_Locator">
+      <class name="com.nopcommerce.user.Level_15_Register_Login_Pattern_Object">
         <methods>
-          <include name="User_04_Switch_Page"/>
+          <include name="deleteAllFileInReportNGScreenShot"/>
+          <include name="User_02_Login" invocation-numbers="0"/>
           <include name="beforeClass"/>
-          <include name="User_05_Switch_Page"/>
+          <include name="User_01_Register" invocation-numbers="0"/>
           <include name="afterClass"/>
         </methods>
-      </class> <!-- com.nopcommerce.user.Level_08_Login_Page_Dynamic_Locator -->
+      </class> <!-- com.nopcommerce.user.Level_15_Register_Login_Pattern_Object -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!-- Run on firefox(failed) -->
 </suite> <!-- Failed suite [Suite] -->

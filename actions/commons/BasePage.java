@@ -2,10 +2,10 @@ package commons;
 
 import java.util.List;
 import java.util.Set;
-
-import javax.management.RuntimeErrorException;
+import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Cookie;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -16,11 +16,9 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import PageUIs.JQuery.HomePageUIs;
 import PageUIs.nopCommerce.BasePageUI;
-import PageUIs.nopCommerce.CustomerPageUI;
-import PageUIs.nopCommerce.NewsPageUI;
-import PageUIs.nopCommerce.ShoppingCartPageUI;
-import PageUIs.nopCommerce.SiteMapPageUI;
+import PageUIs.nopCommerce.RegisterPageUI;
 import pageOject.nopComerece.AboutUsPageOject;
 import pageOject.nopComerece.HomePageOject;
 import pageOject.nopComerece.NewsPageOject;
@@ -34,6 +32,15 @@ public class BasePage {
 		return new BasePage();
 	}
 	
+	public Set<Cookie> getAllCookies(WebDriver driver) {
+		return driver.manage().getCookies();
+	}
+	
+	public void setAllCookies(WebDriver driver, Set<Cookie> allCookies) {
+		for (Cookie cookie : allCookies) {
+			driver.manage().addCookie(cookie);
+		}
+	}
 	public void openPageUrl(WebDriver driver, String pageUrl) {
 		driver.get(pageUrl);
 	}
@@ -159,6 +166,11 @@ public class BasePage {
 		Select select = new Select(getWebElement(driver, locator));
 		select.selectByVisibleText(valueItem);
 	}
+	
+	public void selectItemInDropdown(WebDriver driver, String locator, String valueItem, String... params) {
+		Select select = new Select(getWebElement(driver, getDynamicLocator(locator, params)));
+		select.selectByVisibleText(valueItem);
+	}
 
 	public String getTextOfSelectedItemInDropDown(WebDriver driver, String locator) {
 		Select select = new Select(getWebElement(driver, locator));
@@ -219,6 +231,10 @@ public class BasePage {
 	public int getElementNumber(WebDriver driver, String locator) {
 		return getListWebElement(driver, locator).size();
 	}
+	
+	public int getElementNumber(WebDriver driver, String locator, String... values) {
+		return getListWebElement(driver, getDynamicLocator(locator, values)).size();
+	}
 
 	public void checkToCheckboxOrRadioButton(WebDriver driver, String locator) {
 		WebElement element = getWebElement(driver, locator);
@@ -236,6 +252,17 @@ public class BasePage {
 
 	public boolean isElementDisplayed(WebDriver driver, String locator) {
 		return getWebElement(driver, locator).isDisplayed();
+	}
+	
+	public boolean isControlDisplayed(WebDriver driver, String locator) {
+		boolean status = false;
+		try {
+			status = getWebElement(driver, locator).isDisplayed();
+			return status ;
+		} catch (Exception e) {
+			return status;
+		}
+		
 	}
 	
 	public boolean isElementDisplayed(WebDriver driver, String locator, String... values) {
@@ -275,7 +302,12 @@ public class BasePage {
 
 	public void sendKeyboardToElement(WebDriver driver, String locator, Keys key) {
 		Actions action = new Actions(driver);
-		action.sendKeys(key).perform();
+		action.sendKeys(getWebElement(driver, locator), key).perform();
+	}
+	
+	public void sendKeyboardToElement(WebDriver driver, String locator, Keys key, String...values ) {
+		Actions action = new Actions(driver);
+		action.sendKeys(getWebElement(driver, getDynamicLocator(locator, values)), key).perform();
 	}
 
 	public Object executeForBrowser(WebDriver driver, String javaScript) {
@@ -408,15 +440,59 @@ public class BasePage {
 		WebDriverWait explicitWait = new WebDriverWait(driver, 30);
 		explicitWait.until(ExpectedConditions.elementToBeClickable(getByXpath(getDynamicLocator(locator, values))));
 	}
-
-	public void sleepInSeconds(long time) {
-		try {
-			Thread.sleep(time * 1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
+	
+	public void uploadMultipleFiles(WebDriver driver, String... fileNames) {
+		String filePath = System.getProperty("user.dir") + getDirectorySlash("uploadFile");
+		String fullFileName = "";	
+		for (String file : fileNames) {
+			fullFileName = fullFileName + filePath + file + "\n";
+		}
+		fullFileName = fullFileName.trim();
+		getWebElement(driver, HomePageUIs.UPLOAD_FILE_TYPE).sendKeys(fullFileName);
+	}
+	
+	public boolean isElementUndisplayed(WebDriver driver, String locator) {
+		overrideImplicitTimeout(driver, shortTimeout);
+		List<WebElement> elements = getListWebElement(driver, locator);
+		overrideImplicitTimeout(driver, longTimeout);
+		
+		if(elements.size() == 0) {
+			return false;
+		}else if(elements.size() > 0 && !elements.get(0).isDisplayed()) {
+			return false;
+		}else {
+			return true;
+			
 		}
 	}
+	
+	public boolean isElementUndisplayed(WebDriver driver, String locator, String... values) {
+		overrideImplicitTimeout(driver, shortTimeout);
+		List<WebElement> elements = getListWebElement(driver, getDynamicLocator(locator, values));
+		overrideImplicitTimeout(driver, longTimeout);
+		
+		if(elements.size() == 0) {
+			return false;
+		}else if(elements.size() > 0 && !elements.get(0).isDisplayed()) {
+			return false;
+		}else {
+			return true;
+		
+		}
+	}
+	
+	private long longTimeout = GlobalConstants.LONG_TIMEOUT;
+	private long shortTimeout = GlobalConstants.SHORT_TIMEOUT;
+	
+	public void overrideImplicitTimeout(WebDriver driver, long timeout) {
+		driver.manage().timeouts().implicitlyWait(timeout, TimeUnit.SECONDS);
+	}
+	
+	public static String getDirectorySlash(String folderName) {
+		String separator = System.getProperty("file.separator");
+		return separator + folderName + separator;
+	}
+	
 	
 /* Common Page Oject*/
 	
@@ -477,12 +553,26 @@ public class BasePage {
 		waitforElementClickable(driver, BasePageUI.FOOTER_PAGE_LINK_BY_NAME, pageName);
 		clickToElement(driver, BasePageUI.FOOTER_PAGE_LINK_BY_NAME, pageName);	
 	}
-	
-	private long longTimeOut = GlobalConstants.LONG_TIMEOUT;
-	private long shortTimeOut = GlobalConstants.SHORT_TIMEOUT;
-	
 
-
+	//Patter Object
+	public void enterToTextBoxByID(WebDriver driver, String textboxID, String value) {
+		waitforElementVisible(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, textboxID);
+		sendkeyToElement(driver, BasePageUI.DYNAMIC_TEXTBOX_BY_ID, value, textboxID);
+	}
+	
+	public void openHeaderPageName(WebDriver driver, String pageName) {
+		waitforElementClickable(driver, BasePageUI.DYNAMIC_PAGE_HEADER, pageName);
+		clickToElement(driver, BasePageUI.DYNAMIC_PAGE_HEADER, pageName);	
+	}
+	
+	public void selectDropdownByName(WebDriver driver, String dropdownName, String itemText) {
+		selectItemInDropdown(driver, BasePageUI.DYNAMIC_DROPDOWN_BY_NAME, itemText, dropdownName);
+	}
+	
+	public void clickToButtonByText(WebDriver driver, String buttonName) {
+		waitforElementClickable(driver, BasePageUI.DYNAMIC_BUTTON_BY_TEXT, buttonName);
+		clickToElement(driver, BasePageUI.DYNAMIC_BUTTON_BY_TEXT, buttonName);	
+	}
 }
 
 

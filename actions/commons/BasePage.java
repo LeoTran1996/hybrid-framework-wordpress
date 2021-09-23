@@ -80,6 +80,10 @@ public class BasePage {
 	public void cancelAlert(WebDriver driver) {
 		driver.switchTo().alert().dismiss();
 	}
+	
+	public void cancelAlert2(WebDriver driver) {
+		driver.switchTo().alert().dismiss();
+	}
 
 	public void getAlertText(WebDriver driver) {
 		driver.switchTo().alert().getText();

@@ -84,7 +84,9 @@ public class BasePage {
 	public void getAlertText(WebDriver driver) {
 		driver.switchTo().alert().getText();
 	}
-
+	public void getAlertText2222(WebDriver driver) {
+		driver.switchTo().alert().getText();
+	}
 	public void sendkeyToAlert(WebDriver driver, String value) {
 		driver.switchTo().activeElement().sendKeys(value);
 	}

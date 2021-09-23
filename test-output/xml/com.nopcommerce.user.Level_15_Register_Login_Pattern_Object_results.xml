@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="10.551">
+           time="7.881">
   <properties />
   
   
-            <testcase name="User_01_Register" time="7.303" classname="com.nopcommerce.user.Level_15_Register_Login_Pattern_Object" />
-                <testcase name="User_02_Login" time="3.248" classname="com.nopcommerce.user.Level_15_Register_Login_Pattern_Object" />
+            <testcase name="User_01_Register" time="5.238" classname="com.nopcommerce.user.Level_15_Register_Login_Pattern_Object" />
+                <testcase name="User_02_Login" time="2.643" classname="com.nopcommerce.user.Level_15_Register_Login_Pattern_Object" />
       
 </testsuite>

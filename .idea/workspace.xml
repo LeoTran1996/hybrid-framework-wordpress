@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c7c56fe-a147-4f1a-b2bc-dc91c875dcf7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/actions/commons/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/actions/commons/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/5bd7b74b-ca84-4f0a-bf68-d8766b312db1-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/61e05768-8a7f-4abd-8482-c1953e92e577-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/8bdcf789-be00-4458-a584-99184e37936b-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/b35ec0b8-bff3-41f2-a4fe-9030ca770e5c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-json/b6055daf-3800-4aed-a13d-1dee5ff6f35f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/extentReport/ExtentReportResults.html" beforeDir="false" afterPath="$PROJECT_DIR$/extentReport/ExtentReportResults.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitorLogs/NopCommerce.log" beforeDir="false" afterPath="$PROJECT_DIR$/monitorLogs/NopCommerce.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitorLogs/NopCommerce.txt" beforeDir="false" afterPath="$PROJECT_DIR$/monitorLogs/NopCommerce.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/runWordPressUserAdmin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/runWordPressUserAdmin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/runnopCommerce.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/runnopCommerce.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite/Run on firefox.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite/Run on firefox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Suite/Run on firefox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Suite/Run on firefox.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/WordPress/Run on Firefox.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/WordPress/Run on Firefox.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/WordPress/Run on Firefox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/WordPress/Run on Firefox.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/WordPress/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/WordPress/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/overview.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/overview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/reportng.css" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/reportng.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/reportng.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/reportng.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/sorttable.js" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/sorttable.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suite1_test1_results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/html/suites.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/html/suites.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.nopcommerce.user.Level_15_Register_Login_Pattern_Object.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.nopcommerce.user.Level_15_Register_Login_Pattern_Object.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-com.wordpress.posts.Level_12_Assert_Verify.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-com.wordpress.posts.Level_12_Assert_Verify.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/reporter-output.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/reporter-output.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/Suite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/Suite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/WordPress/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/WordPress/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/WordPress/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/WordPress/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/WordPress/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/WordPress/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/WordPress/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/WordPress/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/WordPress/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/WordPress/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/WordPress/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/WordPress/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/WordPress/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/WordPress/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/WordPress/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/WordPress/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-failed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/xml/com.nopcommerce.user.Level_15_Register_Login_Pattern_Object_results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/xml/com.nopcommerce.user.Level_15_Register_Login_Pattern_Object_results.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1yXHKMJiNyUUz1YqBCiXA9FSTGe" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
+      <module name="hybrid-framwork-wordpress" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c7c56fe-a147-4f1a-b2bc-dc91c875dcf7" name="Default Changelist" comment="" />
+      <created>1632390949506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1632390949506</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

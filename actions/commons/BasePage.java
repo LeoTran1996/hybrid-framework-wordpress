@@ -18,7 +18,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import PageUIs.JQuery.HomePageUIs;
 import PageUIs.nopCommerce.BasePageUI;
-import PageUIs.nopCommerce.RegisterPageUI;
 import pageOject.nopComerece.AboutUsPageOject;
 import pageOject.nopComerece.HomePageOject;
 import pageOject.nopComerece.NewsPageOject;

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[[INFO ] [2021-07-19 09:47:38,341]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-09-23 18:08:50,882]  -------------------------- PASSED -------------------------- 
 ]]>
     </line>
     <line>
-      <![CDATA[[INFO ] [2021-07-19 09:47:43,431]  -------------------------- PASSED -------------------------- 
+      <![CDATA[[INFO ] [2021-09-23 18:08:55,672]  -------------------------- PASSED -------------------------- 
 ]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="23289" started-at="2021-07-19T02:47:21Z" finished-at="2021-07-19T02:47:44Z">
+  <suite started-at="2021-09-23T11:08:44Z" name="Suite" finished-at="2021-09-23T11:08:56Z" duration-ms="11563">
     <groups>
     </groups>
-    <test name="Run on firefox" duration-ms="23289" started-at="2021-07-19T02:47:21Z" finished-at="2021-07-19T02:47:44Z">
+    <test started-at="2021-09-23T11:08:44Z" name="Run on firefox" finished-at="2021-09-23T11:08:56Z" duration-ms="11563">
       <class name="com.nopcommerce.user.Level_15_Register_Login_Pattern_Object">
-        <test-method status="PASS" signature="deleteAllFileInReportNGScreenShot()[pri:0, instance:com.nopcommerce.user.Level_15_Register_Login_Pattern_Object@7fa98a66]" name="deleteAllFileInReportNGScreenShot" is-config="true" duration-ms="15" started-at="2021-07-19T02:47:21Z" finished-at="2021-07-19T02:47:21Z">
+        <test-method is-config="true" signature="deleteAllFileInReportNGScreenShot()[pri:0, instance:com.nopcommerce.user.Level_15_Register_Login_Pattern_Object@602e0143]" started-at="2021-09-23T11:08:44Z" name="deleteAllFileInReportNGScreenShot" finished-at="2021-09-23T11:08:44Z" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteAllFileInReportNGScreenShot -->
-        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Level_15_Register_Login_Pattern_Object@7fa98a66]" name="beforeClass" is-config="true" duration-ms="11295" started-at="2021-07-19T02:47:21Z" finished-at="2021-07-19T02:47:32Z">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.user.Level_15_Register_Login_Pattern_Object@602e0143]" started-at="2021-09-23T11:08:44Z" name="beforeClass" finished-at="2021-09-23T11:08:47Z" duration-ms="2998" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
             <param index="1">
@@ -35,7 +35,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="User_01_Register(java.lang.reflect.Method)[pri:0, instance:com.nopcommerce.user.Level_15_Register_Login_Pattern_Object@7fa98a66]" name="User_01_Register" duration-ms="7303" started-at="2021-07-19T02:47:32Z" finished-at="2021-07-19T02:47:40Z">
+        <test-method signature="User_01_Register(java.lang.reflect.Method)[pri:0, instance:com.nopcommerce.user.Level_15_Register_Login_Pattern_Object@602e0143]" started-at="2021-09-23T11:08:47Z" name="User_01_Register" finished-at="2021-09-23T11:08:52Z" duration-ms="5238" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -45,12 +45,12 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-07-19 09:47:38,341]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2021-09-23 18:08:50,882]  -------------------------- PASSED -------------------------- 
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- User_01_Register -->
-        <test-method status="PASS" signature="User_02_Login(java.lang.reflect.Method)[pri:0, instance:com.nopcommerce.user.Level_15_Register_Login_Pattern_Object@7fa98a66]" name="User_02_Login" duration-ms="3248" started-at="2021-07-19T02:47:40Z" finished-at="2021-07-19T02:47:43Z">
+        <test-method signature="User_02_Login(java.lang.reflect.Method)[pri:0, instance:com.nopcommerce.user.Level_15_Register_Login_Pattern_Object@602e0143]" started-at="2021-09-23T11:08:53Z" name="User_02_Login" finished-at="2021-09-23T11:08:55Z" duration-ms="2643" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -60,12 +60,12 @@
           </params>
           <reporter-output>
             <line>
-              <![CDATA[[INFO ] [2021-07-19 09:47:43,431]  -------------------------- PASSED -------------------------- 
+              <![CDATA[[INFO ] [2021-09-23 18:08:55,672]  -------------------------- PASSED -------------------------- 
 ]]>
             </line>
           </reporter-output>
         </test-method> <!-- User_02_Login -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Level_15_Register_Login_Pattern_Object@7fa98a66]" name="afterClass" is-config="true" duration-ms="1249" started-at="2021-07-19T02:47:43Z" finished-at="2021-07-19T02:47:44Z">
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:com.nopcommerce.user.Level_15_Register_Login_Pattern_Object@602e0143]" started-at="2021-09-23T11:08:55Z" name="afterClass" finished-at="2021-09-23T11:08:56Z" duration-ms="625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->

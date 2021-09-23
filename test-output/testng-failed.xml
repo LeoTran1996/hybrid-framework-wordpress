@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="3" name="Failed suite [Suite]" parallel="tests">
-  <parameter name="url" value="https://demo.nopcommerce.com/"/>
+<suite name="Failed suite [WordPress]">
+  <parameter name="url" value="https://automationfc.wordpress.com/wp-admin"/>
   <listeners>
-    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
-    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
     <listener class-name="commons.MethodListener"/>
-    <listener class-name="reportConfig.ExtentTestListener"/>
   </listeners>
-  <test thread-count="3" name="Run on firefox(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="Run on Firefox(failed)">
+    <parameter name="chrome" value="chrome"/>
     <classes>
-      <class name="com.nopcommerce.user.Level_15_Register_Login_Pattern_Object">
+      <class name="com.wordpress.posts.Level_12_Assert_Verify">
         <methods>
           <include name="deleteAllFileInReportNGScreenShot"/>
-          <include name="User_02_Login" invocation-numbers="0"/>
           <include name="beforeClass"/>
-          <include name="User_01_Register" invocation-numbers="0"/>
+          <include name="Login_01_Assert"/>
           <include name="afterClass"/>
+          <include name="Login_02_Verify"/>
         </methods>
-      </class> <!-- com.nopcommerce.user.Level_15_Register_Login_Pattern_Object -->
+      </class> <!-- com.wordpress.posts.Level_12_Assert_Verify -->
     </classes>
-  </test> <!-- Run on firefox(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Run on Firefox(failed) -->
+</suite> <!-- Failed suite [WordPress] -->

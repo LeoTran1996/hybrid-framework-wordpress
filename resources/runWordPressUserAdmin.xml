@@ -8,7 +8,7 @@
    <parameter name = "url" value ="https://automationfc.wordpress.com/wp-admin" />
   
   <test name="Run on Firefox">
-  	<parameter name = "browser" value ="firefox" />
+  	<parameter name = "chrome" value ="chrome" />
     <classes>
       <class name="com.wordpress.posts.Level_12_Assert_Verify"/>
     </classes>

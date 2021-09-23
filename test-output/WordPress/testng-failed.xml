@@ -6,10 +6,11 @@
     <listener class-name="commons.MethodListener"/>
   </listeners>
   <test thread-count="5" name="Run on Firefox(failed)">
-    <parameter name="browser" value="firefox"/>
+    <parameter name="chrome" value="chrome"/>
     <classes>
       <class name="com.wordpress.posts.Level_12_Assert_Verify">
         <methods>
+          <include name="deleteAllFileInReportNGScreenShot"/>
           <include name="beforeClass"/>
           <include name="Login_01_Assert"/>
           <include name="afterClass"/>

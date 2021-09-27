@@ -35,8 +35,7 @@ public class Level_12_Assert_Verify extends BaseTest {
 		Assert.assertFalse(true);
 		
 		System.out.println("Step 4");
-		Assert.assertFalse(false);
-		
+		Assert.assertFalse(false);	
 	}
 	
 	@Test
@@ -52,8 +51,6 @@ public class Level_12_Assert_Verify extends BaseTest {
 		
 		System.out.println("Step 4");
 		verifyFalse(false);
-		
-		
 	}
 	
 	@AfterClass
